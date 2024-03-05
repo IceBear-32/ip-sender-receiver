@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
     char receiver[SIZE_OF_YOUR_IP];
-    strcpy(receiver, "[YOUR_IP]");
+    strcpy(receiver, "[YOUR_IP]"); // yeah this is not done straight because you don't want your ip to be seen through the hex editor right? then go along with this, just use the strcpy
     int receiver_port = 12345;
 
     WSADATA wsaData;
