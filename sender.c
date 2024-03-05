@@ -4,8 +4,8 @@
 #include <winsock2.h>
 
 int main(int argc, char *argv[]) {
-    char receiver[13];
-    strcpy(receiver, "[YOUR IP]");
+    char receiver[SIZE_OF_YOUR_IP];
+    strcpy(receiver, "[YOUR_IP]");
     int receiver_port = 12345;
 
     WSADATA wsaData;
